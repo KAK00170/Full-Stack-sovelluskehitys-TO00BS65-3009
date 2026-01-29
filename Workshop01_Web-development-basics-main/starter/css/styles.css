@@ -16,7 +16,7 @@ body {
     background-color: rgb(244, 255, 183);
     color: black;
     text-align: center;
-    width: 80%;
+    width: 60%;
     margin: auto;
     border: 2px solid black;
 }
@@ -39,6 +39,9 @@ p {
 /* TODO Task 2: Style your images */
 img {
     border: 2px solid black;
+    width: 50%;
+    min-width: 300px;
+    height: auto;
 }
 
 /* TODO Task 3: Navigation Styles */
@@ -104,8 +107,9 @@ input[type="submit"] {
 }
 
 button:hover,
-input[type="submit"]: hover {
+input[type="submit"]:hover {
     /* Add hover effect for button */
+    background-color: rgb(244, 255, 183);
 }
 
 /* Footer Styles */
@@ -117,6 +121,20 @@ footer {
 /* Tablet styles (optional) */
 @media (max-width: 768px) {
     /* Add your tablet/mobile styles here */
+body {
+    width: 80%;
+    margin: 10px auto;
+}
+h1, h2 {
+    font-size: 25px;
+}
+nav li{
+    font-size: 20px;
+}
+img {
+    width: 40%;
+    height: auto;
+}
 
 }
 
